@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*VERSION MOBILE*/
+
+@media screen and (max-width: 549px) {
+    .menu-hamburguesa {
+        display: block;
+    }
+    .borde-principio {
+        width: 100%;
+    }
+    .logo .ico-diurno,
+    .ico-nocturno {
+        margin-left: 10px;
+    }
+    .ico-diurno,
+    .ico-nocturno {
+        position: relative;
+        left: 20px;
+        top: 5px;
+    }
+    body.dark .logo .ico-nocturno {
+        position: relative;
+        left: 30px;
+        top: 3px;
+        margin-left: 0px;
+    }
+    .menu-desktop {
+        display: none;
+    }
+    .central {
+        padding: 5px;
+    }
+    .title {
+        width: 300px;
+        font-size: 20px;
+        padding: 10px;
+    }
+    .peoples {
+        width: 55%;
+        height: auto;
+    }
+    .buscador-activo .buscador-y-lupa {
+        position: relative;
+        right: 12px;
+        bottom: -2px;
+    }
+
+    .buscador-activo .input-search {
+        padding-right: 18px;
+    }
+
+
+    .buscador-activo .borde-buscador {
+        position: relative;
+        left: 10px;
+        bottom: -4px;
+        width: 92%;
+    }
+
+    .buscador-activo .buscador-sugerencias {
+        position: relative;
+        right: 8px;
+        top: 13px;
+        width: 258PX;
+    }
+
+
+    .buscador-sugerencia-texto {
+        padding-right: 100px;
+        font-size: 14px;
+    }
+    .input-search {
+        margin-left: 22px;
+        width: 95%;
+    }
+    .icon {
+        position: relative;
+        top: 0px;
+        right: 32px;
+    }
+
+    body.dark .icon-nocturno{
+        top: 13px;
+        right: 32px;
+        position: absolute;
+        display: block;
+    }
+
+    ::placeholder {
+        font-family: roboto;
+        color: #9CAFC3;
+        font-size: 16px;
+        text-indent: -1px;
+    }
+
+    .sugerencia {
+        margin-bottom: 8px;
+    }
+
+    .icon-cerrar-busqueda {
+        position: relative;
+        top: 1px;
+        left: -30px;
+    }
+    .reaction {
+        padding: 35px;
+    }
+    .gif-contenedor {
+        margin: 5px;
+    }
+    .title-trend {
+        font-size: 22px;
+    }
+    .sub-title-trend {
+        font-size: 16px;
+        text-align: center;
+        padding: 20px;
+    }
+    #trend-sub {
+        padding: 1px;
+    }
+    footer {
+        height: 190px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .redes {
+        align-items: center;
+        padding: 0px;
+        flex-direction: column;
+    }
+    .compartir {
+        margin-right: 0px;
+        margin-top: -10px;
+    }
+    .icon-redes {
+        margin: 15px 0px 45px 0px;
+        padding-top: 5px;
+    }
+    .final {
+        padding-right: 0px;
+        text-align: center;
+        margin-bottom: -20px;
+    }
+    .gifos-2021 {
+        margin: 0px 30px;
+        font-size: 12px;
+    }
+    .main-mobile h2 {
+        margin: 100px 0px;
+    }
+    .modal-gif {
+        width: 94%;
+        margin: 200px 10px 50px 10px;
+    }
+
+    .buscador-activo {
+        width: 247px;
+        height: 199px;
+    }
+
+    .slide-der, .slide-izq {
+        display: none;
+    }
+
+    body.dark .buscador-activo .icon-cerrar-busqueda {
+        position: relative;
+        top: 8px;
+        right: -21px;
+    }
+
+    body.dark .buscador-activo .icon-cerrar-busqueda-nocturno {
+        display: block;
+        position: relative;
+        top: -6px;
+        right: 30px;
+    }
+}
+
+
+/*VERSION TABLET*/
+
+@media screen and (max-width: 780px) and (min-width: 550px) {
+    .menu-hamburguesa {
+        display: block;
+    }
+    .logo .ico-diurno,
+    .ico-nocturno {
+        margin-left: 10px;
+    }
+    .ico-diurno,
+    .ico-nocturno {
+        position: relative;
+        left: 20px;
+        top: 5px;
+    }
+    body.dark .logo .ico-nocturno {
+        position: relative;
+        left: 20px;
+        top: 5px;
+        margin-left: 0px;
+    }
+    .menu-desk {
+        display: none;
+    }
+    .title {
+        width: 90vw;
+        padding: 20px;
+        font-size: 20px;
+    }
+    .central {
+        padding: 0px;
+    }
+    .peoples {
+        width: 55%;
+        height: auto;
+    }
+    .busc-input {
+        width: 75%;
+        height: 45px;
+    }
+
+    .buscador {
+        display: flex;
+        justify-content: center;
+    }
+    .icon {
+        position: relative;
+        top: 1px;
+        right: 40px;
+    }
+    
+    body.dark .icon-nocturno{
+        top: 13px;
+        right: 40px;
+        position: absolute;
+        display: block;
+    }
+    .gif-contenedor {
+        margin: 5px;
+    }
+    .gifos-view-principal {
+        display: flex;
+        flex-wrap: wrap;
+        width: 98%;
+        padding: 5px;
+    }
+    .redes {
+        padding-left: 20px;
+    }
+    .final {
+        padding-right: 20px;
+    }
+    .main-mobile h2 {
+        margin: 150px 0px;
+    }
+    .modal-gif {
+        width: 95%;
+        margin: 200px 10px 50px 10px;
+    }
+    .buscador-activo .input-search {
+        margin-left: 223px;
+        position: relative;
+        right: -59px;
+        padding-right: 152px;
+    }
+
+    .buscador-activo .icon-cerrar-busqueda {
+        position: relative;
+        top: 0px;
+        right: -21px;
+        cursor: pointer;
+    }
+
+    .buscador-activo {
+        width: 420px;
+        height: 210px;
+    }
+
+    .buscador-activo .buscador-lupa-gris {
+        position: relative;
+        top: 1px;
+        z-index: 1;
+        left: 318px;
+    }
+
+    body.dark .buscador-activo .icon-cerrar-busqueda-nocturno {
+        display: block;
+        position: relative;
+        top: -6px;
+        right: -21px;
+
+    }
+
+    .buscador-activo .borde-buscador {
+        border-top: 2px solid #9CAFC3;
+        width: 116%;
+        position: relative;
+        left: 26px;
+        bottom: -1px;
+    }
+
+    .buscador-activo .buscador-y-lupa {
+        position: relative;
+        right: 297px;
+    }
+
+
+    .buscador-activo .buscador-sugerencias {
+        position: relative;
+        right: 8px;
+        top: 20px;
+        width: 432PX;
+    }
+
+    .buscador-activo .buscador-sugerencia-texto {
+        padding-right: 170PX;
+    }
+
+    .autocom-box li:hover {
+        background: #efefef;
+    }
+    
+    body.dark .autocom-box li:hover {
+        background: #424242;
+    } 
+
+    body.dark .buscador-activo .icon-cerrar-busqueda {
+        position: relative;
+        top: 8px;
+        right: -21px;
+
+    }
+}
+
+
+/* CREAR GIFOS MEDIA QUERY */
+
+@media screen and (max-width: 1098px) {
+    .main-mobile {
+        display: block;
+    }
+    body.dark .main-mobile h2 {
+        color: #FFFFFF;
+    }
+    .container-pantalla {
+        display: none;
+    }
+    .container-num {
+        display: none;
+    }
+    .rollo {
+        display: none;
+    }
+    .log-videos {
+        display: none;
+    }
+    .separacion {
+        display: none;
+    }
+}

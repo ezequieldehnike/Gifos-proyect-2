@@ -1,0 +1,332 @@
+/*FAVORITOS*/
+
+.corazon-fav {
+    width: 150px;
+    height: 150px;
+}
+
+.resultados-gif {
+    width: 210px;
+    height: 170px;
+}
+
+.gifos-view-principal-fav {
+    margin: 38px 10px 53px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.resultados-gif-box-fav {
+    position: relative;
+    width: 210px;
+    height: 170px;
+    overflow: hidden;
+    margin: 15px;
+}
+
+.iconos-acciones-gif {
+    display: flex;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 0;
+}
+
+.gif-acciones-favoritos {
+    position: absolute;
+    z-index: 0;
+    background-color: rgba(87, 46, 229, 0.7);
+    width: 210px;
+    height: 170px;
+    overflow: hidden;
+    transform: translateX(0);
+}
+
+.gif-acciones-favoritos {
+    display: none;
+}
+
+.iconos-acciones-box {
+    width: 32px;
+    height: 32px;
+    background-color: rgba(165, 148, 148, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    border: none;
+}
+
+.favorito {
+    cursor: pointer;
+}
+
+.download {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.max {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.iconos-acciones-box:hover {
+    background-color: #ffffff;
+}
+
+.textos-descripcion-gif {
+    text-align: left;
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    font-family: roboto;
+}s
+
+.user-gif {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.titulo-gif {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 10px 0 0;
+}
+
+.resultados-gif-box-fav:hover .gif-acciones-favoritos {
+    display: block;
+}
+
+.fav-icono {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.title-favorito {
+    font-family: Montserrat;
+    font-size: 30px;
+    color: #572EE5;
+}
+
+body.dark .title-favorito {
+    color: #FFFFFF;
+}
+
+.title-gifos {
+    font-family: Montserrat;
+    font-size: 30px;
+    color: #572EE5;
+}
+
+body.dark .title-gifos {
+    color: #FFFFFF;
+}
+
+#misgifos-creados {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.resultados-misgifos {
+    margin: 38px 10px 53px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.resultados-gif-box-misgifos {
+    width: 156px;
+    height: 120px;
+    overflow: hidden;
+    margin: 0 10px 25px 10px;
+}
+
+.gif-acciones-resultados-misgifos {
+    display: none;
+}
+
+.log-ver,
+.log-videos {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#vermas,
+#comenzar,
+#grabar,
+#finalizar,
+#subir {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 50px;
+    border: 2px solid #572EE5;
+    border-radius: 25px;
+    margin-top: 10px;
+    font-family: montserrat;
+    color: #572EE5;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#vermas:hover,
+#comenzar:hover,
+#grabar:hover,
+#finalizar:hover,
+#subir:hover {
+    background-color: #572EE5;
+    color: #FFFFFF;
+}
+
+body.dark #comenzar,
+body.dark #grabar,
+body.dark #finalizar,
+body.dark #subir {
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+}
+
+body.dark #comenzar:hover,
+body.dark #grabar:hover,
+body.dark #finalizar:hover,
+body.dark #subir:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+
+/*FAVORITOS Y GIFOS SIN CONTENIDO*/
+
+#favoritos-vacio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    display: none;
+}
+
+.guarda-1er-gif,
+.crea-1er-gif {
+    text-align: center;
+    width: 35%;
+    margin: 40px 0px 40px 0px;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 22px;
+    color: #50E3C2;
+}
+
+
+/*MIS GIFOS*/
+
+.gifo-icono {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    color: #572EE5;
+    margin-top: 40px;
+}
+
+#misgifos-vacio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#misgifos-vacio {
+    text-align: center;
+    margin-top: 40px;
+    display: none;
+}
+
+#misgifos-creados {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.resultados-misgifos {
+    margin: 38px 10px 53px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.resultados-gif-box-misgifos {
+    width: 210px;
+    height: 170px;
+    overflow: hidden;
+    object-fit: cover;
+    margin: 0 10px 25px 10px;
+}
+
+.gif-acciones-resultados-misgifos {
+    position: absolute;
+    z-index: 0;
+    background-color: rgba(87, 46, 229, 0.7);
+    width: 210px;
+    height: 170px;
+}
+
+.borrar {
+    cursor: pointer;
+}
+
+.download {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.max {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.iconos-acciones-box:hover {
+    background-color: #FFFFFF;
+}
+
+.textos-descripcion-gif-misgifos {
+    position: absolute;
+    bottom: 30px;
+    left: 18px;
+}
+
+.user-gif-misgifos {
+    text-align: left;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 0;
+    margin-bottom: 6px;
+}
+
+.titulo-gif-misgifos {
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+
+.resultados-gif-box-misgifos:hover .gif-acciones-resultados-misgifos {
+    display: block;
+}

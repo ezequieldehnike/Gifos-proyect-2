@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrearGif-Gifos-DehnikeEzequiel</title>
+    <link rel="stylesheet" href="Estilos/style.css">
+    <link rel="stylesheet" href="Estilos/fav-gifos.css">
+    <link rel="stylesheet" href="Estilos/crear-estilos.css">
+    <link rel="stylesheet" href="Estilos/query.css">
+    <script src="https://kit.fontawesome.com/511aa52456.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+</head>
+
+<body>
+    <div class="borde-principio"></div>
+    <header>
+        <div class="header">
+            <a class="logo" href="index.html"><img class="ico-diurno" src="Recursos/SpecExport-SketchMeasure2.4_files/logo-desktop.svg" alt="icono-diurno">
+                <img class="ico-nocturno" src="Recursos/SpecExport-SketchMeasure2.4_files/Logo-modo-noc.svg" alt="icono-nocturno"></a>
+            <div class="menu-desktop">
+                <ul class="menu-desk">
+                    <li class="menu-principal" id="switchNoc">MODO NOCTURNO</li>
+                    <li class="menu-principal"><a href="favoritos.html">FAVORITOS</a></li>
+                    <li class="menu-principal"><a href="mis-gifos.html">MIS GIFOS</a></li>
+                    <li class="menu-principal">
+                        <a href="crear-gifos.html"><img class="crea-ico-diu" src="Recursos/SpecExport-SketchMeasure2.4_files/button-crear-gifo.svg" alt="icono">
+                            <img class="crea-ico-noc" src="Recursos/SpecExport-SketchMeasure2.4_files/CTA-crar-gifo-modo-noc.svg" alt="icono-modo-noc">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="menu-hamburguesa">
+            <input class="check" type="checkbox" id="boton-menu">
+            <label for="boton-menu" class="label-menu">
+                <span id="linea-1"></span>
+                <span id="linea-2"></span>
+                <span id="linea-3"></span>
+            </label>
+
+            <nav class="menu-mobile">
+                <a class="menu arriba" id="switchNocMobile">Modo Nocturno</a>
+                <div class="borde-inferior"></div>
+                <a class="menu" href="favoritos.html">Favoritos</a>
+                <div class="borde-inferior"></div>
+                <a class=" menu" href="mis-gifos.html">Mis GIFOS</a>
+                <div class="borde-inferior"></div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="main-mobile">
+        <h2>Entrá a esta página desde una computadora con cámara y crea tus propios <span class="gifos-turquesa">GIFOS!</span></h2>
+    </section>
+
+    <section class="crear-gifo">
+        <div class="container-pantalla">
+            <div class="cont-camara">
+                <img id="camara-ilustracion" class="camara" src="Recursos/SpecExport-SketchMeasure2.4_files/camara.svg" alt="camara">
+                <img id="luz-camara" class="luz-camara" src="Recursos/SpecExport-SketchMeasure2.4_files/element-luz-camara.svg" alt="luz-camara">
+            </div>
+
+            <div class="pantalla">
+                <h2 id="text-title-pantalla">Aquí podrás <br> crear tus propios <span class="gif">GIFOS</span></h2>
+                <p id="text-crea-tu-gifo">¡Crea tu GIFO en sólo 3 pasos! <br> (sólo necesitas una cámara para grabar un video)</p>
+
+                <div class="mode-video" id="mode-video">
+                    <div id="mode-video-actions"></div>
+
+                    <div id="mode-video-textos">
+                        <img class="loading" src="Recursos/SpecExport-SketchMeasure2.4_files/loader.svg" alt="loading-gifo" id="mode-video-icon">
+                        <p id="mode-video-parrafo">Estamos subiendo tu GIFO</p>
+                    </div>
+
+                </div>
+
+                <video id="grabacion-video"></video>
+                <img src="" alt="gif-grabado" id="gif-grabado">
+            </div>
+        </div>
+
+        <div>
+            <div class="container-num">
+                <div id="num">1</div>
+                <div id="num">2</div>
+                <div id="num">3</div>
+            </div>
+            <div class="contador-contenedor">
+                <p id="contador-grabacion">0:00:00</p>
+                <button id="contador-repetircaptura">repetir captura</button>
+            </div>
+        </div>
+
+        <div class="rollo">
+            <img src="Recursos/SpecExport-SketchMeasure2.4_files/element_cinta1.svg" alt="" class="cam-rollo">
+        </div>
+
+        <div class="linea-separacion">
+            <div class="separacion"></div>
+        </div>
+    </section>
+
+    <div class="log-videos">
+        <div id="comenzar" class="btn-generico"> COMENZAR</div>
+        <div id="grabar" class="btn-generico">GRABAR</div>
+        <div id="finalizar" class="btn-generico">FINALIZAR</div>
+        <div id="subir" class="btn-generico">SUBIR GIFO</div>
+    </div>
+
+    <footer>
+        <div class="redes">
+            <p class="compartir">Compartir en:</p>
+            <div class="icon-redes">
+                <a href="https://www.facebook.com/" class="img-redes"><i class="fa fa-facebook fa-1x"></i></a>
+                <a href="https://twitter.com/login?lang=es" class="img-redes"><i class="fab fa-twitter fa-1x"></i></a>
+                <a href="https://www.instagram.com/?hl=es" class="img-redes"><i class="fab fa-instagram fa-1x"></i></a>
+            </div>
+        </div>
+        <div class="final">
+            <p class="gifos-2021">© GIFOS 2021 All Rights Reserved.</p>
+        </div>
+    </footer>
+    <div class="borde-final"></div>
+
+    <script src="https://www.WebRTC-Experiment.com/RecordRTC.js"></script>
+    <script src="Javascript/home.js"></script>
+    <script src="Javascript/dark-mode.js"></script>
+    <script src="Javascript/dark-mode-mobile.js"></script>
+    <script src="Javascript/crear-gifo.js"></script>
+
+
+</body>
+
+</html>
